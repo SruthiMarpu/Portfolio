@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <style>
+         ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color:rgb(161, 135, 222);
+            overflow: auto;
+        }
+
+        li.navitem {
+            float: left;
+        }
+
+        li.navitem a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li.navitem a:hover {
+            background-color:powderblue;
+        }
+        * {
+                box-sizing:border-box ;
+            
+        }
+        .img-container{
+            float:left;
+            width:14.08%;
+            padding:40px;
+        }
+        .clearfix::after{
+            content:"";
+            clear:both;
+            display:none;
+        }
+        nav li {
+            display: inline;
+            margin: 0 10px;
+        }
+        .course {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .course img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body bgcolor="powderblue">
+
+    <ul class="navbar">
+        <li class="navitem"><a href="index.html" target="_self">HOME</a></li>
+        
+        <li class="navitem"><a href="about.html" target="_self">ABOUT</a></li>
+        <li class="navitem"><a href="experience.html" target="_self">EXPERIENCE</a></li>
+        <li class="navitem"><a href="certtificates.html">CERTIFICATES</a></li>
+        <li class="navitem"><a href="CONTACT.HTML">CONTACT</a></li>
+        
+    </ul>
+    <h1>CERTIFICATES</h1>
+
+    <div class="course">
+        <h2><blockquote>BASICS OF PYTHON</blockquote> </h2>
+        <img src="py.jpg" alt="Certificate for course Name 1">
+   
+    <div class="course">
+        <h2><blockquote>CSS</blockquote></h2>
+        <img src="imgcss.jpg" alt="Certificate for Course Name 2">
+    </div>
+
+
+    <div class="course">
+        <h2><blockquote>HOW THE INTERNET WORKS AND WEB DEVELOPMENT</blockquote></h2>
+        <img src="imghtml.jpg" alt="Certificate for Course Name 3">
+    </div>
+
+    
+</body>
+</html>
